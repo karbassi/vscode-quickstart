@@ -21,6 +21,7 @@
   "files.autoSaveDelay": 1000,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "search.location": "panel",
   "screencastMode.onlyKeyboardShortcuts": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
