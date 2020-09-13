@@ -7,10 +7,9 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
+  "editor.renameOnType": true,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "selection",
-  "editor.rulers": [80, 120],
-  "editor.snippetSuggestions": "top",
   "editor.trimAutoWhitespace": true,
   "editor.wordWrap": "on",
   "emmet.showExpandedAbbreviation": "always",
@@ -21,7 +20,6 @@
   "files.autoSaveDelay": 1000,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "search.location": "panel",
   "screencastMode.onlyKeyboardShortcuts": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
@@ -29,22 +27,9 @@
   "update.showReleaseNotes": false,
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
-  "files.exclude": {
-    "**/__MACOSX": true,
-    "**/__pycache__": true,
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/*.cs.meta": true,
-    "**/*.pyc": true,
-    "**/CVS": true,
-    "**/Icon?": true,
-    "**/node_modules": true,
-    "**/Thumbs.db": true
-  },
 
   // HTML
   "html.format.extraLiners": " ",
@@ -77,7 +62,8 @@
     "title-require": true
   },
   "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.rulers": [80]
   },
 
   // CSS
@@ -88,10 +74,16 @@
   "css.lint.idSelector": "warning",
   "css.lint.important": "warning",
   "css.lint.zeroUnits": "warning",
+  "[css]": {
+    "editor.rulers": [80]
+  },
 
   // JS
   "javascript.suggest.completeFunctionCalls": true,
   "turboConsoleLog.quote": "`",
+  "[javascript]": {
+    "editor.rulers": [80]
+  },
 
   // Extentions
   "liveServer.settings.donotShowInfoMsg": true,
