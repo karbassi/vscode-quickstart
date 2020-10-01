@@ -14,6 +14,7 @@
   "editor.wordWrap": "on",
   "emmet.showExpandedAbbreviation": "always",
   "emmet.triggerExpansionOnTab": true,
+  "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.autoUpdate": true,
   "files.autoSave": "afterDelay",
