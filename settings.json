@@ -7,7 +7,7 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
-  "editor.renameOnType": true,
+  "editor.linkedEditing": true,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "selection",
   "editor.trimAutoWhitespace": true,
