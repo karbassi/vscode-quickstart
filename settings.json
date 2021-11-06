@@ -5,9 +5,9 @@
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
-  "editor.linkedEditing": true,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "selection",
   "editor.trimAutoWhitespace": true,
@@ -19,11 +19,11 @@
   "extensions.autoUpdate": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
+  "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "screencastMode.onlyKeyboardShortcuts": true,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   "typescript.suggest.completeFunctionCalls": true,
   "update.showReleaseNotes": false,
   "window.zoomLevel": 0,
@@ -62,6 +62,7 @@
     "tagname-lowercase": true,
     "title-require": true
   },
+
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify",
     "editor.rulers": [80]
@@ -84,6 +85,11 @@
 
   // JS
   "javascript.suggest.completeFunctionCalls": true,
+  "prettier.arrowParens": "always",
+  "prettier.endOfLine": "lf",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
   "turboConsoleLog.quote": "`",
   "[javascript]": {
     "editor.rulers": [80]
@@ -91,7 +97,5 @@
 
   // Extentions
   "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.NoBrowser": true,
-  "prettier.arrowParens": "always",
-  "prettier.singleQuote": true
+  "liveServer.settings.NoBrowser": true
 }
