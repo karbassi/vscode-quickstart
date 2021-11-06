@@ -1,6 +1,7 @@
 {
   // Editor
   "breadcrumbs.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
@@ -26,7 +27,6 @@
   "telemetry.telemetryLevel": "off",
   "typescript.suggest.completeFunctionCalls": true,
   "update.showReleaseNotes": false,
-  "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
