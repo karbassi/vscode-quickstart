@@ -27,6 +27,7 @@
   "telemetry.telemetryLevel": "off",
   "typescript.suggest.completeFunctionCalls": true,
   "update.showReleaseNotes": false,
+  "window.restoreWindows": "none",
   "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
