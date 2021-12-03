@@ -93,17 +93,20 @@
 
   // JS
   "javascript.suggest.completeFunctionCalls": true,
-  "prettier.arrowParens": "always",
-  "prettier.endOfLine": "lf",
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "turboConsoleLog.quote": "`",
   "[javascript]": {
     "editor.rulers": [80]
   },
 
   // Extentions
+  // - Live Server
   "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.NoBrowser": true
+  "liveServer.settings.NoBrowser": true,
+
+  // - Prettier
+  "prettier.arrowParens": "always",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.endOfLine": "lf",
+  "prettier.trailingComma": "all"
 }
