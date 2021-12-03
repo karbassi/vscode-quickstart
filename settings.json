@@ -32,6 +32,14 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
 
+  // git
+  "git.allowForcePush": false,
+  "git.autofetch": "all",
+  "git.autofetchPeriod": 180,
+  "git.autoStash": true,
+  "git.enableSmartCommit": true,
+  "git.fetchOnPull": true,
+
   // HTML
   "html.format.extraLiners": " ",
   "html.format.indentInnerHtml": false,
